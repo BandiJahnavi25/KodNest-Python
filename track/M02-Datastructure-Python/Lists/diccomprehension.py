@@ -16,10 +16,10 @@ print(type(unique_squares))
 numbers = [2, 3, 2, 4, 3]
 
 square_list = [number * number for number in numbers]
-square_list = {number * number for number in numbers}
+square_set = {number * number for number in numbers}
 
 print(square_list)
-print(square_list)
+print(square_set)
 
 # Dictoranary
 numbers = [2, 3, 4, 5]
